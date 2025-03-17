@@ -289,6 +289,29 @@ footer {
         footer .footer-right .quick-links a.email {
             background-color: #EA4335; /* Gmail red as email color */
         }
+    /* Responsive design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .nav-icons a.desktop-only {
+                display: none;
+            }
+
+            /* Footer adjustments for smaller screens */
+            footer {
+                justify-content: center; /* Center the content */
+            }
+
+            footer .copyright {
+                display: none; /* Hide copyright on small screens */
+            }
+
+            footer .footer-right {
+                justify-content: center; /* Ensure the Contact Us and icons are centered */
+            }
+        }
   </style>
 </head>
 
